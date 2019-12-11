@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jtlshop3plugin>
+	<Name>Mosaic Homepage Categories</Name>
+	<Description>Shows products from selected categories in the homepage</Description>
+	<Author>Frederic B.</Author>
+	<URL>https://fredesk.com</URL>
+	<PluginID>cool_homepage</PluginID>
+	<XMLVersion>100</XMLVersion>
+	<Shop4Version>400</Shop4Version>
+	<Install>
+		<Version nr="100">
+			<CreateDate>2019-12-11</CreateDate>
+		</Version>
+		<Hooks>
+			<Hook id="140">output.php</Hook>
+		</Hooks>
+		<JS>
+			<file>
+				<name>cool-homepage.js</name>
+				<priority>5</priority>
+				<position>body</position>
+			</file>
+		</JS>
+	</Install>
+</jtlshop3plugin>
